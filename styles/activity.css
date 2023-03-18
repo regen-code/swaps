@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none !important;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    /* overflow-x: hidden; */
+}
+
+.navbar {
+    background-color: rgb(18, 18, 18) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+    box-shadow: none;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.navbar-brand {
+    line-height: 1.5;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #AAA7A7;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: #280e14;
+    color: #AAA7A7;
+}
+
+.nav-item:nth-child(6) {
+    background-color: #FA04D3;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.navbar-nav {
+    margin-right: 3rem !important;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.header {
+    margin-top: 1rem !important;
+}
+
+.wallet-icon {
+    height: 2rem !important;
+    width: 2rem !important;
+    border: #fff !important;
+}
+
+.hero-section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: -5rem;
+}
+
+.hero-section-content {
+    width: 85%;
+}
+
+.hero-section-content h1 {
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.15rem;
+    /* width: 70%; */
+}
+
+.hero-section-content h6 {
+    font-weight: 400;
+    color: #fff;
+    display: inline;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.1rem;
+    /* width: 10px !important; */
+}
+
+.hero-section-content h6 span {
+    color: rgb(250, 4, 211);
+    text-decoration: underline;
+}
+
+.btn-group {
+    margin-top: 3.3rem;
+}
+
+.explore-btn {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid rgba(41, 182, 246, 0.5);
+    color: rgb(41, 182, 246);
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+
+.inscribe-btn {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 4, 211);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.card-section {
+    margin-top: 1rem !important;
+}
+
+.card-section-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.card-section-header span:nth-child(1) {
+    display: flex;
+}
+
+.card-section-header span:nth-child(1) a {
+    font-size: 1rem;
+}
+
+.card-section-header span:nth-child(1) a:nth-child(1) {
+    margin-right: 3rem;
+    color: #AAA7A7;
+}
+
+.card-section-header span:nth-child(1) a:nth-child(2) {
+    color: #FA04D3;
+    border-bottom: 2px solid #FA04D3;
+    padding-bottom: 1.5rem;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    width: 25rem !important;
+    background-color: inherit;
+    border: 1px solid #313131;
+    padding: 16.5px 30px 16.5px 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.search-box input:hover {
+    border: 1px solid #fff;
+}
+
+.search-box input:focus,
+.search-box input:active {
+    border: 3px solid #FA04D3;
+    outline: none !important;
+}
+
+.search-box i {
+    position: absolute;
+    left: 20px;
+    top: 35%;
+}
+
+
+
+.cardy {
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: rgb(14, 14, 15);
+    height: 24.5rem;
+}
+
+.card-top {
+    width: 100%;
+    height: 66%;
+    background-color: #131516;
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+}
+
+.card-1 .card-top {
+    background: url(/assets/collectionspage/1.svg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.card-2 .card-top {
+    background: url(/assets/collectionspage/2.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.card-2 .card-top,
+.card-3 .card-top,
+.card-5 .card-top,
+.card-12 .card-top,
+.card-14 .card-top,
+.card-15 .card-top,
+.card-17 .card-top,
+.card-18 .card-top,
+.card-19 .card-top,
+.card-25 .card-top,
+.card-31 .card-top,
+.card-33 .card-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top h1 {
+    font-size: 10rem;
+}
+
+.card-top h6 {
+    font-size: 30px;
+}
+
+.card-top p {
+    font-size: 10px;
+}
+
+.card-3 .card-top {
+    background: url(/assets/collectionspage/);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-4 .card-top {
+    background: url(/assets/collectionspage/4.png);
+    background-position: center;
+    background-size: 98%;
+    background-repeat: no-repeat;
+}
+
+.card-6 .card-top {
+    background: url(/assets/collectionspage/6.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-7 .card-top {
+    background: url(/assets/collectionspage/7.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-8 .card-top {
+    background: url(/assets/collectionspage/8.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-9 .card-top {
+    background: url(/assets/collectionspage/9.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-10 .card-top {
+    background: url(/assets/mainpage/ten.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-11 .card-top {
+    background: url(/assets/collectionspage/11.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.card-12 .card-top {
+    background: url(/assets/collectionspage/12);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-13 .card-top {
+    background: url(/assets/collectionspage/13.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-14 .card-top {
+    background: url(/assets/collectionspage/14.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-15 .card-top {
+    background: url(/assets/collectionspage/15.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-16 .card-top {
+    background: url(/assets/collectionspage/16.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-17 .card-top {
+    background: url(/assets/collectionspage/17.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-18 .card-top {
+    background: url(/assets/collectionspage/18.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-19 .card-top {
+    background: url(/assets/collectionspage/19.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-20 .card-top {
+    background: url(/assets/collectionspage/20.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.card-21 .card-top {
+    background: url(/assets/collectionspage/21.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-22 .card-top {
+    background: url(/assets/collectionspage/22.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-23 .card-top {
+    background: url(/assets/collectionspage/23.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.card-24 .card-top {
+    background: url(/assets/collectionspage/24.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-26 .card-top {
+    background: url(/assets/collectionspage/26.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-27 .card-top {
+    background: url(/assets/collectionspage/27.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-28 .card-top {
+    background: url(/assets/collectionspage/28.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-29 .card-top {
+    background: url(/assets/collectionspage/29.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-30 .card-top {
+    background: url(/assets/collectionspage/30.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-31 .card-top {
+    background: url(/assets/collectionspage/31.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-32 .card-top {
+    background: url(/assets/collectionspage/32.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-33 .card-top {
+    background: url(/assets/collectionspage/33.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-34 .card-top {
+    background: url(/assets/collectionspage/34.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-35 .card-top {
+    background: url(/assets/collectionspage/35.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-36 .card-top {
+    background: url(/assets/collectionspage/36.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-37 .card-top {
+    background: url(/assets/collectionspage/37.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-38 .card-top {
+    background: url(/assets/collectionspage/38.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-39 .card-top {
+    background: url(/assets/collectionspage/39.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-40 .card-top {
+    background: url(/assets/collectionspage/40.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-bottom {
+    padding: 16px;
+}
+
+.card-bottom h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.00938em;
+}
+
+.card-bottom h1 img {
+    height: 16px !important;
+    width: 16px !important;
+    margin-right: 5px;
+}
+
+.loader-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+    .hero-section-content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-section {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .card-section-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px 30px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . .";
+    }
+}
+
+@media screen and (min-width: 840px) and (max-width: 1119px) {
+    .card-section-content {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px 30px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . .";
+      }
+      
+}
+
+@media screen and (max-width: 840px) {
+    .card-section-content {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". .";
+    }
+
+    .cardy {
+        height: 18.2rem;
+    }
+
+    .card-bottom {
+        padding: 8px;
+    }
+
+    .card-top {
+        height: 60%;
+    }
+
+    .card-top h1 {
+        font-size: 6rem;
+    }
+
+    .card-bottom h1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .card-bottom h1 img {
+        height: 12px;
+        width: 12px;
+    }
+      
+}
+
+@media screen and (max-width: 720px) {
+    .card-section-header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-box input {
+        width: 100% !important;
+        order: -1;
+        margin-top: 1rem;
+    }
+
+    .search-box i {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+    }
+}

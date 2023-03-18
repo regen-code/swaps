@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    /* overflow-x: hidden; */
+    padding-bottom: 10rem;
+}
+
+.navbar {
+    background-color: rgb(18, 18, 18) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+    box-shadow: none;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.navbar-brand {
+    line-height: 1.5;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #AAA7A7;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: #280e14;
+    color: #AAA7A7;
+}
+
+.nav-item:nth-child(6) {
+    background-color: #FA04D3;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.navbar-nav {
+    margin-right: 3rem !important;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.wallet-icon {
+    height: 2rem !important;
+    width: 2rem !important;
+    border: #fff !important;
+}
+
+.hero-section {
+    margin-top: 3.5rem;
+    width: 100%;
+}
+
+.warning-box {
+    background-color: #191207;
+    color: #FFE2B7;
+    padding: 2rem;
+}
+
+.fa-solid {
+    margin-right: 1rem;
+}
+
+.hero-section-content span:nth-child(1) h1 {
+    font-size: 36px;
+    color: #fff;
+    width: 100%;
+    letter-spacing: 0.15rem;
+}
+
+.hero-section-content {
+    /* width: 100rem; */
+}
+
+.hero-section-content a {
+    color: #FA04D3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.connect-btn {
+    border: 1px solid #FA04D3;
+    background-color: inherit;
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+
+.create-btn {
+    border: 1px solid #FA04D3;
+    background-color: inherit;
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    /* margin-top: 1rem; */
+    border-radius: 4px;
+}
+
+.sign-btn {
+    border: 1px solid #FA04D3;
+    background-color: inherit;
+    width: 100%;
+    padding: 8px 0px 8px 0px;
+    /* margin-top: 1rem; */
+    border-radius: 4px;
+}
+
+.second-heading,
+.third-heading {
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 0.15rem;
+}
+
+.key-input {
+    height: 3rem !important;
+    width: 100%;
+    padding-left: 1rem;
+    background-color: inherit;
+    border: 1px solid #AAA7A7;
+    border-radius: 4px;
+    outline: none;
+}
+
+.key-input:focus,
+.key-input:active {
+    border: 2px solid #FA04D3;
+    color: #fff;
+}
+
+
+
+

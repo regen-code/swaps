@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    /* overflow-x: hidden; */
+}
+
+.navbar {
+    background-color: rgb(18, 18, 18) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+    box-shadow: none;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.navbar-brand {
+    line-height: 1.5;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: #AAA7A7;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: #FA04D329;
+    color: #AAA7A7;
+}
+
+.nav-item:nth-child(6) {
+    background-color: #FA04D3;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.navbar-nav {
+    margin-right: 3rem !important;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.wallet-icon {
+    height: 2rem !important;
+    width: 2rem !important;
+    border: #fff !important;
+}
+
+.header {
+    margin-top: 1rem !important;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    border: 1px solid #313131;
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.dropdown:hover {
+    border: 1px solid #fff;
+}
+
+.dropdown:focus,
+.dropdown:active {
+    border: 2px solid #FA04D3;
+}
+
+.dropdown p {
+    position: absolute;
+    top: -11px;
+    background-color: rgb(18, 18, 18);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #AAA7A7;
+    font-size: 14px;
+}
+
+.dropdown-btn {
+    background-color: inherit;
+    border: none;
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #313131;
+    margin-top: 1rem !important;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.active {
+    background-color: #FA04D329 !important;
+}
+
+.hero-section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 3.3rem;
+}
+
+.hero-section-content {
+    width: 72%;
+}
+
+.hero-section-content h1 {
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.15rem;
+    /* width: 70%; */
+}
+
+.hero-section-content h6 {
+    font-weight: 400;
+    color: #fff;
+    display: inline;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.1rem;
+    /* width: 10px !important; */
+}
+
+.hero-section-content h6 span {
+    color: rgb(250, 4, 211);
+}
+
+.btn-group {
+    margin-top: 3.3rem;
+}
+
+.explore-btn {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid rgba(41, 182, 246, 0.5);
+    color: rgb(41, 182, 246);
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+
+.inscribe-btn {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 4, 211);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.card-section {
+    margin-top: 2rem;
+}
+
+.cardy {
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: rgb(14, 14, 15);
+    height: 24.5rem;
+}
+
+.card-top {
+    width: 100%;
+    height: 66%;
+    background-color: #131516 !important;
+    border-top-right-radius: 8px !important;
+    border-top-left-radius: 8px !important;
+}
+
+.card-1 .card-top {
+    background: url(/assets/mainpage/one.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-2 .card-top,
+.card-5 .card-top,
+.card-11 .card-top,
+.card-14 .card-top,
+.card-15 .card-top,
+.card-17 .card-top,
+.card-18 .card-top,
+.card-19 .card-top,
+.card-23 .card-top,
+.card-31 .card-top,
+.card-33 .card-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top h1 {
+    font-size: 10rem;
+}
+
+.card-top h6 {
+    font-size: 30px;
+}
+
+.card-top p {
+    font-size: 10px;
+}
+
+.card-3 .card-top {
+    background: url(/assets/mainpage/three.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-4 .card-top {
+    background: url(/assets/mainpage/four.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-6 .card-top {
+    background: url(/assets/mainpage/six.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-7 .card-top {
+    background: url(/assets/mainpage/seven.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-8 .card-top {
+    background: url(/assets/mainpage/eight.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-9 .card-top {
+    background: url(/assets/mainpage/nine.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-10 .card-top {
+    background: url(/assets/mainpage/ten.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-12 .card-top {
+    background: url(/assets/mainpage/twelve.webp);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-13 .card-top {
+    background: url(/assets/mainpage/thirteen.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-16 .card-top {
+    background: url(/assets/mainpage/sixteen.gif);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-20 .card-top {
+    background: url(/assets/mainpage/twenty.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-21 .card-top {
+    background: url(/assets/mainpage/twenty-one.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-22 .card-top {
+    background: url(/assets/mainpage/twenty-two.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-24 .card-top {
+    background: url(/assets/mainpage/twenty-four.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-25 .card-top {
+    background: url(/assets/mainpage/twenty-five.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-26 .card-top {
+    background: url(/assets/mainpage/twenty-six.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-27 .card-top {
+    background: url(/assets/mainpage/twenty-seven.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-28 .card-top {
+    background: url(/assets/mainpage/twenty-eight.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-29 .card-top {
+    background: url(/assets/mainpage/twenty-nine.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-30 .card-top {
+    background: url(/assets/mainpage/thirty.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-32 .card-top {
+    background: url(/assets/mainpage/thirty-two.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-34 .card-top {
+    background: url(/assets/mainpage/thirty-four.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-35 .card-top {
+    background: url(/assets/mainpage/thirty-five.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-36 .card-top {
+    background: url(/assets/mainpage/thirty-six.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-37 .card-top {
+    background: url(/assets/mainpage/thirty-seven.svg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-38 .card-top {
+    background: url(/assets/mainpage/thirty-eight.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-39 .card-top {
+    background: url(/assets/mainpage/thirty-nine.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-40 .card-top {
+    background: url(/assets/mainpage/forty.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-bottom {
+    padding: 16px;
+}
+
+.card-bottom h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.00938em;
+}
+
+.card-bottom h1 img {
+    height: 16px !important;
+    width: 16px !important;
+    margin-right: 5px;
+}
+
+.loader-section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+    .hero-section-content {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-section {
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .card-section-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px 30px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . .";
+    }
+}
+
+@media screen and (min-width: 840px) and (max-width: 1119px) {
+    .card-section-content {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 30px 30px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . ."
+          ". . .";
+      }
+      
+}
+
+@media screen and (max-width: 840px) {
+    .card-section-content {  display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". ."
+          ". .";
+    }
+
+    .cardy {
+        height: 18.2rem;
+    }
+
+    .card-bottom {
+        padding: 8px;
+    }
+
+    .card-top {
+        height: 60%;
+    }
+
+    .card-top h1 {
+        font-size: 6rem;
+    }
+
+    .card-bottom h1 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .card-bottom h1 img {
+        height: 12px;
+        width: 12px;
+    }
+      
+}
